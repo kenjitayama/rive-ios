@@ -22,7 +22,8 @@ struct SplashScreen: View {
     
     /// This file only has one Animation also, and it can autoPlay, so all that
     /// is needed is the file name
-    var tree = RiveViewModel(fileName: "windy_tree")
+    // var tree = RiveViewModel(fileName: "windy_tree")
+    var tree = RiveViewModel(fileName: "Switch")
     
     /// This file has a StateMachine that reacts when we set its boolean input called "Play"
     var playButton = RiveViewModel(fileName: "play_pause", stateMachineName: "State Machine 1")
@@ -85,7 +86,7 @@ struct SplashScreen: View {
     private func togglePlay() {
         isPlaying.toggle()
         if isPlaying {
-            tree.play()
+            tree.play(loop: .oneShot)
         } else {
             tree.pause()
         }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68C8CACB2B7F479D0097F77A /* Switch.riv in Resources */ = {isa = PBXBuildFile; fileRef = 68C8CACA2B7F479D0097F77A /* Switch.riv */; };
 		C30EB0EF286FE16A00451EE2 /* interactive_rings.riv in Resources */ = {isa = PBXBuildFile; fileRef = C30EB0EE286FE16A00451EE2 /* interactive_rings.riv */; };
 		C30EB0F5286FEF7500451EE2 /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = C30EB0F4286FEF7500451EE2 /* confetti.riv */; };
 		C30EB0F9286FF65100451EE2 /* play_pause.riv in Resources */ = {isa = PBXBuildFile; fileRef = C30EB0F8286FF65100451EE2 /* play_pause.riv */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68C8CACA2B7F479D0097F77A /* Switch.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = Switch.riv; sourceTree = "<group>"; };
 		C30EB0EE286FE16A00451EE2 /* interactive_rings.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = interactive_rings.riv; sourceTree = "<group>"; };
 		C30EB0F4286FEF7500451EE2 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
 		C30EB0F8286FF65100451EE2 /* play_pause.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = play_pause.riv; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				C30EB0EE286FE16A00451EE2 /* interactive_rings.riv */,
 				C30EB0F4286FEF7500451EE2 /* confetti.riv */,
 				C30EB0F8286FF65100451EE2 /* play_pause.riv */,
+				68C8CACA2B7F479D0097F77A /* Switch.riv */,
 			);
 			path = "Rive Files";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				C30EB0EF286FE16A00451EE2 /* interactive_rings.riv in Resources */,
 				C30EB0F5286FEF7500451EE2 /* confetti.riv in Resources */,
 				C30EB0F9286FF65100451EE2 /* play_pause.riv in Resources */,
+				68C8CACB2B7F479D0097F77A /* Switch.riv in Resources */,
 				C378724328789199000B7560 /* rive_animation_logo.riv in Resources */,
 				C36D8A92286F86A800C97125 /* Preview Assets.xcassets in Resources */,
 				C36D8A9D286F92B300C97125 /* windy_tree.riv in Resources */,
